@@ -2,6 +2,10 @@
 
 # Avatarify Python
 
+This fork of [alievk/avatarify-python](https://github.com/alievk/avatarify-python) adds a Windows setup using Python 3.11, a project-local virtual environment, and CUDA-enabled PyTorch 2.5.1. The Windows launcher automatically uses `.venv` when available and works from any current directory.
+
+See the [updated Windows setup and launch instructions](docs/windows-modern.md). The original project documentation follows below. Original attribution and [license](LICENSE.md) are retained.
+
 Photorealistic avatars for video-conferencing.
 
 Avatarify Python requires manually downloading and installing some dependencies, and is therefore best suited for users who have some experience with command line applications. [Avatarify Desktop](https://github.com/alievk/avatarify-desktop), which aims to be easier to install and use, is recommended for most users. If you still want to use Avatarify Python, proceed to the [install instructions](docs/).
